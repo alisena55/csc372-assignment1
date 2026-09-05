@@ -1,0 +1,52 @@
+/*
+ Name: Alisena Nasirali
+  Date: 09/04/2026
+  CSC 372-01
+
+  Stylesheet for the Queen City Community Guide. Defines page text styling,
+  heading styles, and the attendee testimonial blockquote used on event.html.
+*/
+
+/* Base page text */
+body {
+  background-color: white;
+  color: #404040;
+  font-size: 11pt;
+  font-family: Georgia, Garamond, serif;
+  line-height: 1.5;
+  margin: 2em;
+}
+
+/* All headings share the same color and underline */
+h1,
+h2 {
+  color: #A4A400;
+  text-decoration: underline;
+}
+
+/* Main heading */
+h1 {
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+/* Subheadings */
+h2 {
+  font-size: 18pt;
+  font-weight: normal;
+}
+
+/* Keep the main event photo from overflowing narrow screens */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Attendee testimonial (Feature 1) */
+#testimonial {
+  background-color: #FFFFA8;
+  font-style: italic;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: 1em;
+}
